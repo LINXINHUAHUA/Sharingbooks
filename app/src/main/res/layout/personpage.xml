@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1009dff">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="个人主页"
+    android:textColor="#ffffff"
+    android:textSize="25dp"
+    android:id="@+id/textView"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:src="@drawable/gougoutouxiang"
+        android:layout_marginTop="53dp"
+        android:id="@+id/imageView"
+        android:layout_below="@+id/textView"
+        android:layout_alignEnd="@+id/button" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="读书破万卷，下笔如有神"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/imageView"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_marginTop="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="地址：四川成都"
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        android:id="@+id/textView2"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/imageView" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="账号：201531003043"
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        android:layout_above="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginBottom="21dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="推荐书籍：追风筝的人"
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginTop="23dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="编辑资料"
+        android:background="#f100bfff"
+        android:layout_marginBottom="13dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/button" />
+</RelativeLayout>

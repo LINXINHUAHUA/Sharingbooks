@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ShareBooks</string>
+    <string name="scan_name">扫一扫</string>
+    <string name="friend1_name">好友1</string>
+    <string name="friend2_name">好友2</string>
+    <string name="tucao_name">吐槽</string>
+    <string name="dongtai_name">动态</string>
+</resources>

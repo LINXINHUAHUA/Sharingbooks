@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+
+        <item
+            android:icon="@drawable/friend"
+            android:id="@+id/nav_friend1"
+            android:title="用户1" />
+
+        <item
+            android:icon="@drawable/friend"
+            android:id="@+id/nav_friend2"
+            android:title="用户2" />
+
+        <item
+            android:icon="@drawable/house"
+            android:id="@+id/personpage"
+            android:title="个人主页"/>
+        <item
+            android:icon="@drawable/lendhistory"
+            android:id="@+id/lendhistory"
+            android:title="借还记录"/>
+
+        <item
+            android:icon="@drawable/back"
+            android:id="@+id/nav_edit"
+            android:title="退出登录"/>
+
+    </group>
+
+</menu>

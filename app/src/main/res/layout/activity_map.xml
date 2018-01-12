@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawerLayout_map"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <include
+            layout="@layout/toolbar"
+            android:id="@+id/toolbar_map" />
+
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <com.baidu.mapapi.map.MapView
+                android:id="@+id/bmapView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+
+            <Button
+                android:id="@+id/map_button_position"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="270dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/placeholder"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:id="@+id/tucao"
+                android:text="@string/tucao_name"
+                android:textColor="#ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#f1009dff"
+                android:layout_marginLeft="300dp"
+                android:layout_marginTop="200dp"
+                />
+
+            <Button
+                android:id="@+id/dongtai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dongtai_name"
+                android:textColor="#ffffff"
+                android:background="#f1009dff"
+                android:layout_marginLeft="300dp"
+                android:layout_marginTop="260dp"
+                />
+            <Button
+                android:id="@+id/map_button_scan"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:text="@string/scan_name"
+                android:textColor="#ffffff"
+                android:background="@drawable/tub"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#f1009dff"
+        app:menu="@menu/nav_menu"
+        app:headerLayout="@layout/nav_header"/>
+
+</android.support.v4.widget.DrawerLayout>
